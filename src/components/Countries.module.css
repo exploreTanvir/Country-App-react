@@ -1,0 +1,24 @@
+.countries {
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  padding: 3rem;
+  background: rgb(198, 198, 198);
+}
+.countries img {
+  height: 12rem;
+  width: 20rem;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .countries {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .countries {
+    grid-template-columns: auto auto;
+  }
+}
